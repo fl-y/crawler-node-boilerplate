@@ -1,0 +1,26 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "license": "GNU AGPLv3",
+  "scripts": {
+    "dev": "yarn build --watch",
+    "build": "babel 'src' --out-dir 'dist' --source-maps"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-proposal-optional-chaining": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@types/axios": "^0.14.0",
+    "@types/lodash": "^4.14.150",
+    "@types/node": "^13.13.0",
+    "nodemon": "^2.0.3"
+  }
+}
